@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IQuizzle</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.3/css/bootstrap.min.css"
+        integrity="sha512-oc9+XSs1H243/FRN9Rw62Fn8EtxjEYWHXRvjS43YtueEewbS6ObfXcJNyohjHqVKFPoXXUxwc+q1K7Dee6vv9g=="
+        crossorigin="anonymous" />
+</head>
+
+<body>
+    <!-- top section -->
+    <div class="intro py-3 bg-white text-center">
+        <div class="container">
+            <h2 class="text-primary display-3 my-4">IQuizzle</h2>
+        </div>
+    </div>
+
+    <!-- result section -->
+    <div class="result py-4 d-none bg-light text-center">
+        <div class="container lead">
+            <p>Your IQ is <span class="text-primary display-4 p-3">0%</span></p>
+        </div>
+    </div>
+
+    <!-- quiz section -->
+    <div class="quiz py-4 bg-primary">
+        <div class="container">
+            <h2 class="text-white font-weight-normal">Answer the following questions to test your IQ :)</h2>
+            <form class="quiz-form text-light">
+                <div class="my-5">
+                    <p class="lead font-weight-normal">1. How many states are there in India?</p>
+                    <div class="form-check my-2 text-white-70">
+                        <input type="radio" name="q1" value="A" checked>
+                        <label clas="form-check-label">29</label>
+                    </div>
+                    <div class="form-check my-2 text-white-50">
+                        <input type="radio" name="q1" value="B">
+                        <label clas="form-check-label">28</label>
+                    </div>
+                </div>
+
+                <div class="my-5">
+                    <p class="lead font-weight-normal">2. What's the closest planet to earth?</p>
+                    <div class="form-check my-2 text-white-70">
+                        <input type="radio" name="q2" value="A" checked>
+                        <label clas="form-check-label">Mercury</label>
+                    </div>
+                    <div class="form-check my-2 text-white-50">
+                        <input type="radio" name="q2" value="B">
+                        <label clas="form-check-label">Pluto</label>
+                    </div>
+                </div>
+
+                <div class="my-5">
+                    <p class="lead font-weight-normal">3. What's a shape made of 9 sides called?</p>
+                    <div class="form-check my-2 text-white-70">
+                        <input type="radio" name="q3" value="A" checked>
+                        <label clas="form-check-label">Nanogon</label>
+                    </div>
+                    <div class="form-check my-2 text-white-50">
+                        <input type="radio" name="q3" value="B">
+                        <label clas="form-check-label">Hectagon</label>
+                    </div>
+                </div>
+
+                <div class="my-5">
+                    <p class="lead font-weight-normal">4. What's the largest ocean in the world?</p>
+                    <div class="form-check my-2 text-white-70">
+                        <input type="radio" name="q4" value="A" checked>
+                        <label clas="form-check-label">Pacific Ocean</label>
+                    </div>
+                    <div class="form-check my-2 text-white-50">
+                        <input type="radio" name="q4" value="B">
+                        <label clas="form-check-label">Indian Ocean</label>
+                    </div>
+                </div>
+                <div class="text-left">
+                    <input type="submit" class="btn btn-light" value="Submit">
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
